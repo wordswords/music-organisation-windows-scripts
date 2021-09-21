@@ -6,7 +6,10 @@ REM -- Needs paths set to kid3-cli.exe windows 64 build from https://kid3.kde.or
 REM -- and metaflac.exe from https://ftp.osuosl.org/pub/xiph/releases/flac/
 REM
 REM -- Remember to run 'beet update' after you are happy with the modifications
-REm -- and then 'beet move'
+REM -- and then 'beet move'
+REM -- 
+REM -- For more info see: https://davidcraddock.net/2021/09/21/how-to-fix-plex-media-servers-various-artists-problem-using-beets-io-and-other-tools/
+REM -- 
 
 setlocal
 set PATH=%PATH%;C:\Users\conta\Downloads\kid3-3.8.7-win32-x64\kid3-3.8.7-win32-x64
