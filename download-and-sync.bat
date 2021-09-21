@@ -5,7 +5,6 @@ REM 3. Remember to change 'socialistsynthesis' to your own bandcamp ID!
 setlocal
 set jdkpath=C:\Program Files\Java\jdk-17
 set PATH=%jdkpath%\bin;%PATH%
-setx JAVA_HOME %jdkpath%
 set JAVA_HOME=%jdkpath%
 java.exe -jar bandcamp-collection-downloader.jar -f=flac -j=1 -r=3 socialistsynthesis
 endlocal
