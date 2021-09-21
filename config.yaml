@@ -1,0 +1,10 @@
+plugins: duplicates replaygain the ftintitle check
+directory: S:\audio\Music
+import:
+  copy: no
+replaygain:
+  command: S:\audio\mp3gain.exe
+  targetlevel: 92
+paths:
+  default: %the{$albumartist}/$album/$artist - $title $bpm
+  comp: %the{$albumartist}/Comps/$artist - $title $bpm
