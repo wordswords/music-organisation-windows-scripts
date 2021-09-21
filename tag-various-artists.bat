@@ -1,5 +1,6 @@
 REM -- Set albumartist tag field to 'Various Artists' field from a valid 'beets ls' query string
 REM -- This is to ensure that Plex Media Server properly indexes and displays DJ mix compliations 
+REM -- Works with FLAC and MP3 files.
 REM
 REM -- Needs paths set to kid3-cli.exe windows 64 build from https://kid3.kde.org/
 REM -- and metaflac.exe from https://ftp.osuosl.org/pub/xiph/releases/flac/
